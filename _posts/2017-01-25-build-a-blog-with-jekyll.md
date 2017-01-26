@@ -7,8 +7,8 @@ title: Build a Blog with Jekyll
 Build a Blog using [Jekyll](https://jekyllrb.com) - a simple, static, blog-aware
 website builder that is hosted by [GithubPages](https://pages.github.com). We
 can build our Jekyll site from the ground up or take the easy route and download
- one of the available themes and customize it.
-many [themes](https://github.com/jekyll/jekyll/wiki/Themes) available.
+one of the many [themes](https://github.com/jekyll/jekyll/wiki/Themes) available
+and customize it.
 
 ### The Why:
 * Jekyll supports mobile friendly themes.
@@ -48,8 +48,7 @@ errors that I resolved by following directions listed in the issues section
 of the github repository. Take a deep breath and do some googling.
 
 Now you can open the folder labeled posts and create a new .md file. Use the
-existing posts as examples of how to format yours. Check out the [Jekyll Docs]
-(https://jekyllrb.com/docs/posts/) for more help on creating posts.
+existing posts as examples of how to format yours. Check out the [Jekyll Docs](https://jekyllrb.com/docs/posts/) for more help on creating posts.
 
 Once you've got a post you'll want to push the changes to Github. Follow the
 directions for setting up a [Github page](https://pages.github.com). If you
