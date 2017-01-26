@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Build a Blog with Jekyll
 ---
 
