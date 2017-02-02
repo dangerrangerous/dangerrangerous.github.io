@@ -8,10 +8,15 @@ permalink:           pretty
 title:               'blkdrops'
 tagline:             'technical knowledge and more'
 description:         'Projects, tutorials, and musings. By Brian Keppinger'
-url:                 http://dangerrangerous.github.io
-baseurl:             ''
+url:                 http://blkdrops.com
+baseurl:             /blog
 paginate:            5
 paginate_path:      "page:num"
+
+# Comments
+comments: true
+disqus:
+  shortname: blkdrops
 
 # About/contact
 author:

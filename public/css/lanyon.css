@@ -41,15 +41,16 @@ body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "Roboto", "PT Serif", Georgia, "Times New Roman", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  color: #313131;
+  font-family: "Monsterrat", "PT Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #00e673;
   letter-spacing: -.025rem;
 }
+
 
 
 /*
@@ -105,7 +106,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #505050;
 }
 .masthead-title a {
-  color: #505050;
+  /* color: #505050; */
+  color: #00e673;
 }
 .masthead-title small {
   font-size: 75%;
@@ -316,7 +318,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #00e673;
 }
 .page-title,
 .post-title {
