@@ -9,7 +9,7 @@ title:               'blkdrops'
 tagline:             'technical knowledge and more'
 description:         'Projects, tutorials, and musings. By Brian Keppinger'
 url:                 http://blkdrops.com
-baseurl:             ''
+baseurl:             /blog
 paginate:            5
 paginate_path:      "page:num"
 
