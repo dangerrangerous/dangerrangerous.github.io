@@ -14,7 +14,7 @@ paginate:            5
 paginate_path:      "page:num"
 
 # Comments
-comments: false
+comments: true
 disqus:
   shortname: blkdrops
 

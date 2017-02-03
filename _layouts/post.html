@@ -1,36 +1,17 @@
 ---
 layout: default
-<<<<<<< HEAD
 comments: true
-=======
-<<<<<<< Updated upstream
-=======
-comments: false
->>>>>>> Stashed changes
->>>>>>> silva
 ---
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-<<<<<<< HEAD
+
   <span class="post-date">{{ page.date | date_to_string }}
   {% if page.comments %} • <a href="http://blkdrops.com{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
   </span>
-=======
-<<<<<<< Updated upstream
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-=======
-  <span class="post-date">{{ page.date | date_to_string }}
-  <!-- {% if page.comments %} • <a href="http://blkdrops.com{{ page.url }}#disqus_thread">0 Comments</a>{% endif %} -->
-  </span>
->>>>>>> Stashed changes
->>>>>>> silva
+
   {{ content }}
 </div>
-
-{% if page.comments %}
-  {% include disqus.html %}
-{% endif %}
 
 <div class="related">
   <h2>Related Posts</h2>
@@ -44,7 +25,12 @@ comments: false
           </a>
         </h3>
       </li>
-    {% include disqus.html %}
     {% endfor %}
   </ul>
 </div>
+
+{% if site.comments %}
+
+  {% include disqus.html %}
+
+{% endif %}
