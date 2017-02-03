@@ -31,4 +31,7 @@
   <link rel="blkdrops-logo-sm.png" href="{{ site.baseurl }}/public/blkdrops-logo-sm.png">
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 </head>

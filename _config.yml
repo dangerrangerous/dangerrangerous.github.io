@@ -18,6 +18,8 @@ comments: true
 disqus:
   shortname: blkdrops
 
+# Google services
+google_analytics: UA-91364027-1
 # About/contact
 author:
   name:              Brian Keppinger
