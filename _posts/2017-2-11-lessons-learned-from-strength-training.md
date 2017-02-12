@@ -34,6 +34,7 @@ luxury that there are many plans readily available that can be modified
 to fit your personal goals. This is not always the case when learning a new skill. You
 may have to create your own plan. I will try to help walk you through what this process
 can look like.
+
 * **Write down your goal.** Ex: Learn and play an entire song from memory. We will
  work backwards from this point.
 
