@@ -73,7 +73,7 @@ is to use Ukkonnen's algorithm to get this to build in O(n) time.
 ### Suffix links
 ![fig15](/public/Fig15.jpg){:class="img-responsive"}
 Notice the red line moving from all paths labeled 'c'. A pointer from a substring node with path
-label 'c' to another node with label c is called a suffix link. If 'c' is an empty string, the suffix
+label 'c' to another node with path label c is called a suffix link. If 'c' is an empty string, the suffix
 link from the internal node will go to root.
 
 Suffix links provide a shortcut to find the end of the path. For a more in-depth explanation, see [Ukonnen's suffix tree part 2](http://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-2/)
