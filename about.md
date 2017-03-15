@@ -14,4 +14,4 @@ with an education in Operations Management. We are alive during a time where the
  we did it. I've made this blog in an attempt to record and share my learning,
 experiences, ideas, and adventures.
 
-See you later, space cowboy.
+See you, space cowboy.
