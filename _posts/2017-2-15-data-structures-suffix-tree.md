@@ -1,13 +1,13 @@
 ---
 layout: post
 comments: true
-title: Data Structures&#58 Ukkonen's Suffix Tree Part 1
+title: Data Structures&#58 Ukkonen's Suffix Tree
 ---
 
 ### How to find a repeating pattern in a string
 First, a brief history of how this blog post came to be. I was recently tasked
 with finding repeating patterns in a string. I began to attack the problem
-with sheer brute force. It was easy enough to find repeating characters, but
+with sheer brute force. <!--excerpt.start-->It was easy enough to find repeating characters, but
 what about patterns like 1234512345 where 12345 is repeated? Suddenly brute force became a much less
 attractive option, and I really didn't want to bother with Regex. Having done
 some work with Microsoft's System.Speech voice recognition as well as

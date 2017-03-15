@@ -1,11 +1,11 @@
 ---
 layout: post
-comments: false 
+comments: false
 title: Build a Blog with Jekyll
 ---
 
 ### The What:
-Build a Blog using [Jekyll](https://jekyllrb.com) - a simple, static, blog-aware
+<!--excerpt.start-->Build a Blog using [Jekyll](https://jekyllrb.com) - a simple, static, blog-aware
 website builder that is hosted by [GithubPages](https://pages.github.com). We
 can build our Jekyll site from the ground up or take the easy route and download
 one of the many [themes](https://github.com/jekyll/jekyll/wiki/Themes) available

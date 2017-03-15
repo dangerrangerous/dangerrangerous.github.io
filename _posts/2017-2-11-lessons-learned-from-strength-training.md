@@ -9,7 +9,7 @@ So either you already pick things up and set them down or you're interested in
 picking things up and setting them down, what
 of it? At a certain point you may want to pick up heavier things and you
 will realize that in order to ascend to the next level you will have to change
-your processes. Here are some key take-aways I've gained
+your processes. <!--excerpt.start-->Here are some key take-aways I've gained
 from strength training that can be applied to picking up a new skill or
 breaking out of a plateau.
 
