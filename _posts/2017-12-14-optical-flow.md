@@ -33,8 +33,7 @@ Next step is to export as .exr files. Drop a write node by pressing “W” and 
 ![OptiFlow_2](/public/OpticalFlow.tut.2.png){:class="img-responsive"}
 Alright now we open up Houdini - and things get a little complex. Drop a grid down, scope in, connect an ‘attribute from map’ node to the grid node, and then select the .exr sequence we just created for the texture map. Type in “color” in the Texture Channel.  Scale the grid to match the resolution of the image sequence, such as 19.2 x 10.8. Increase the “resolution” of the grid by upping the rows and columns count, notice how these mimic pixels, 192 x 108 is a decent starting point. Connect another ‘attribute from map’ and select the .exr sequence again for texture map. Type in “forward” into texture channel and “v” into Export Attribute to get the vectors from the image. We will use these vectors to influence our particles. Connect a null node to this ‘attribfrommap’ and rename it “EMITTER_OUT”.
 
-
-![OptiFlow_3](/public/OpticalFlow.tut.3.png}}){:class="img-responsive"}
+![OptiFlow_3](/public/OpticalFlow.tut.3.png){:class="img-responsive"}
 Scope up to object level and rename the grid_object1 geometry to emitter. Mouse to the Particle Fluids tab up top and select “Source Particle Emitter” from the particle tab up top, select our grid, then hit enter. This should create an AutoDopNetwork. Scope up to object level and then into this AutoDopNetwork and press the “L” key to fix the layout. Select the flipsolver, go to the Volume Limits tab and change the Box Size to better fit the shape of the grid, giving some vertical space for the particles to move.
 
 
@@ -46,7 +45,7 @@ Above the viewport to the right of the ‘pin’ icon there is an icon that you 
 Go back into the AutoDopNetwork and under the Guides tab select the Particles tab and change the Visualization Type to None so we can start to visualize colors. You’ll notice that there are no colors presently, let’s fix that. Head to the emitter object and drop an ‘attribtransfer’ node below the ‘create_surface_volume’ node and connect it this and the ‘attribwrangle’ like so.
 
 
-![OptiFlow_6](/public/OpticalFlow/OpticalFlow.tut.6.png){:class="img-responsive"}
+![OptiFlow_6](/public/OpticalFlow.tut.6.png){:class="img-responsive"}
 Now if we go back into the AutoDopNetwork we can see the particles inheriting the velocity vectors from our original .exr files! For the sake of brevity I will be ending this overview/tutorial here. It’s up to you to play around with settings and modify forces to get desired results.
 
 
