@@ -41,13 +41,13 @@ body {
 }
 
 html {
-  font-family: "Roboto", "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "Roboto", "PT Sans", Georgia, "Times New Roman", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Monsterrat", "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  color: #00e673;
+  color: #49adec;
   letter-spacing: -.025rem;
 }
 
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .masthead-title a {
   /* color: #505050; */
-  color: #00e673;
+  color: #FF5733;
 }
 .masthead-title small {
   font-size: 75%;
@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
-  color: rgba(255,255,255,.6);
+  color: rgba(215,215,215,.7);
   background-color: #202020;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
@@ -309,6 +309,11 @@ a.sidebar-nav-item:focus {
  * page is wrapped in `.page` and is only used on the page layout.
  */
 
+/*
+.posts {
+  background-color: #2E2B27;
+}
+*/
 .page,
 .post {
   margin-bottom: 4em;
@@ -318,7 +323,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #00e673;
+  color: #49adec;
 }
 .page-title,
 .post-title {
