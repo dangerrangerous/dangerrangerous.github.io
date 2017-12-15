@@ -4,8 +4,9 @@ title: About
 ---
 
 <p class="message">
+![beaver-falls](/public/beaverfalls.jpeg)
+
 Brian Keppinger.
-Time Travelling Space Cowboy.
 </p>
 
 Hey there! I'm a software developer by experience
