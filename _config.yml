@@ -6,8 +6,8 @@ permalink:           pretty
 
 # Setup
 title:               'blkdrops'
-tagline:             'technical knowledge and more'
-description:         'Projects, tutorials, and musings. By Brian Keppinger'
+tagline:             'tech, art, and more'
+description:         '© Copyright Brian Keppinger 2016.'
 url:                 http://blkdrops.com
 baseurl:             ''
 paginate:            5
@@ -19,6 +19,9 @@ comments: true
 disqus:
   shortname: blkdrops
 
+# Categories
+permalink: /:categories/:title/
+
 # Google services
 google_analytics: UA-91364027-1
 # About/contact
@@ -26,6 +29,11 @@ author:
   name:              Brian Keppinger
   url:
   email:             brian.keppinger@gmail.com
+
+github_username: dangerrangerous
+linkedin_username: briankeppinger
+#vimeo_username:
+instagram_username: briankeppinger
 
 # Custom vars
 version:             1.0.0
